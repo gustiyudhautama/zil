@@ -5,7 +5,7 @@
  * tinggalkan cangkulmu dan mulailah scan bersamaku
  */
 
-echo "zil194drl9ufc4pyn6dt6vfwl8rudn0qvkyzxmgmga: ";
+echo "INPUT LIST ADDRESS ZIL: ";
 $zil = trim(fgets(STDIN));
 $list = file_get_contents($zil);
 $datas = explode("\n", str_replace("\r", "", $list));
